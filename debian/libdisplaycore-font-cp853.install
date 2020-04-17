@@ -1,2 +1,2 @@
-CP853.cpp libraries/DisplayCore/CP853
-CP853.h libraries/DisplayCore/CP853
+src libraries/DisplayCore/CP853
+library.properties libraries/DisplayCore/CP853
