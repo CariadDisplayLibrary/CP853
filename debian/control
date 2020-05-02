@@ -1,15 +1,16 @@
-Source: libdisplaycore-font-cp853
+Source: libcariad-font-cp853
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-font-cp853
+Package: libcariad-font-cp853
+Replaces: libdisplaycore-font-cp853
 Section: main
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Fonts
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: CP853.h
 Description: CP853 (VGA Code Page 853)
